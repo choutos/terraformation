@@ -18,7 +18,7 @@ resource "aws_instance" "example" {
   }
 }
 
-resource "aws_security_group" "example-sg" {
+resource "aws_security_group" "onewebserver-sg" {
   name = "terraform-example-instance"
 
   ingress {
